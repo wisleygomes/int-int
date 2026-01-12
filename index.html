@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel de Estudos | Saúde & Tecnologia</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <h1>Painel de Estudos</h1>
+      <p>Organize seus estudos em Saúde & Tecnologia</p>
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+      <!-- FORMULÁRIO -->
+      <section class="add-task">
+        <h2>Adicionar tópico</h2>
+
+        <form id="task-form">
+          <input
+            type="text"
+            id="task-input"
+            placeholder="Ex: Segurança do Paciente, HTML, JavaScript..."
+            required
+          />
+
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+
+      <!-- FILTROS -->
+      <section class="filters">
+        <button data-filter="all" class="active">Todos</button>
+        <button data-filter="pending">Pendentes</button>
+        <button data-filter="completed">Concluídos</button>
+      </section>
+
+      <!-- LISTA DE TAREFAS -->
+      <section class="task-list">
+        <h2>Meus tópicos</h2>
+
+        <ul id="tasks">
+          <!-- Itens gerados via JavaScript -->
+        </ul>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 • Wisley Gomes • Projeto Front-End</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
