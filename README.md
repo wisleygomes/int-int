@@ -1,9 +1,13 @@
 # 🧠 Painel de Estudos – Saúde & Tecnologia
 
+<p align="center">
+  <img alt="projeto DevLinks" src="./assets/capa.jpg" width="50%">
+</p>
+
 Aplicação front-end interativa para organização de estudos,
 com foco em experiência do usuário e persistência de dados.
 
-🔗 Acesse o projeto: https://github.com/wisleygomes/int-int.git
+🔗 Acesse o projeto: https://wisleygomes.github.io/int-int/
 
 ---
 
